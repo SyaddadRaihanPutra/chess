@@ -1,0 +1,66 @@
+<style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+      /* .description {
+      text-align: justify;
+      } */
+      @media screen and (min-width: 350px) {
+      .card {
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 20px;
+      }
+      }
+      @media screen and (min-width: 860px) {
+      #mobile {
+          display: none;
+      }
+      .footer-mobile {
+          display: none;
+      }
+      }
+      @media screen and (max-width: 860px) {
+      #contents {
+          display: none;
+      }
+      .footer {
+          display: none;
+      }
+      }
+      @media screen and (max-width: 450px) {
+      .tabs {
+          margin-top: 10px;
+          padding: 10px;
+      }
+      .tabs__content {
+          margin-bottom: 30px;
+      }
+      .footer {
+          background-color: #009578;
+          height: 100vh;
+      }
+      }
+      @media screen and (min-width: 500px) {
+      #readmore {
+          display: none;
+      }
+      #readmore-mobile {
+          margin: 20px auto 25px auto;
+      }
+      }
+      @media screen and (max-width: 500px) {
+      video {
+          margin-top: 7px;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+      }
+      #readmore {
+          display: none;
+      }
+      #readmore-mobile {
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 25px;
+      }
+      }
+    </style>
